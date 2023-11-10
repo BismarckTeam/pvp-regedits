@@ -1,0 +1,46 @@
+Windows Registry Editor Version 5.00
+
+;______________________________________________
+;       __    ___   ___   ______    ___     __    ______       __
+;      /   /  /   /   | /   /   | /   /   __   \/   _   \ /      | /    /   _     |   /   /
+;    /   /_/   /         /         /   / _/   /   ,    _/   / | _/   /   __    | /   /__
+;   \____ / _/ |_/ _/ |_/ \ ____/ _/ | _/_ /     /_ / _/    | _/____ /
+;______________________________________________
+
+;PRIVATE v1.
+
+;ETHERNITY v0.1a 
+
+;http://www.unnormal.de.gg/
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\AFD\Parameters]
+"FastCopyReceiveThreshold"=dword:000005dc
+"FastSendDatagramThreshold"=dword:000005dc
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\Tcpip\Parameters]
+"TcpMaxDupAcks"=dword:00000002
+"DefaultTTL"=dword:00000040
+"EnablePMTUBHDetect"=dword:00000000
+"EnablePMTUDiscovery"=dword:00000000
+"SackOpts"=dword:00000001
+"Tcp1323Opts"=dword:00000001
+"TcpWindowSize"=dword:0003ebc0
+"GlobalMaxTcpWindowSize"=dword:0003ebc0
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\Tcpip\Parameters\Interfaces]
+"mtu"=dword:000005d4
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\msconfig]
+@="System Configuration"
+"icon"="msconfig.exe"
+
+[HKEY_CLASSES_ROOT\*\shell]
+@="\"notepad.exe %1\""
+[HKEY_CLASSES_ROOT\*\shell\open]
+@="Open &With Notepad"
+[HKEY_CLASSES_ROOT\*\shell\open\command]
+@="notepad.exe %1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\msconfig\command]
+@="msconfig.exe"

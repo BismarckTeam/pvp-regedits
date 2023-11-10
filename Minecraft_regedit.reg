@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00 
+
+[HKEY_CURRENT_USER\Software\Mojang\Minecraft]
+"Version"="1.7.10"
+"Path"="C:\Users\LoL\AppData\Roaming.minecraft"
+"DesktopSC"=dword:8128GG
+"DesktopTTL"=dword:8217f
+"EnablePMTUBHDetect"=dword:HHH
+"EnablePMTUDiscovery"=dword:9877
+"SackOpts"=dword:100
+"TCP"=dword:123
+"Tcp123Opts"=dword:9218FFF
+"TcpAckFrequency"=dword:1293FFF
+"TcpDelAckTicks"=dword:11348F
+"TcpDelAckTricks"=dword:1288fff
+"TcpMaxDataRetransmissions"=dword:00000005
+"TcpNoDelay"=dword:51
+"TcpWindowSize"=dword:1344FF
+"MaxFreeTcbs"=dword:5337
+"DefaultTTL"=dword:12346FFF
+"GlobalMaxTcpWindowSize"=dword:463242
+"DefaultRCVWindow"=dword:35235

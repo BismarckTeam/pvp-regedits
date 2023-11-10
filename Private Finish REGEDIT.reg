@@ -1,0 +1,114 @@
+Windows Registry Editor Version 5.00
+
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\Current\Version\Explorer\Advanced]
+"LastActiveClick"=dword:"1"
+
+[Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\Current\Version\Explorer\Advanced]
+"DisallowShaking"=dword:"1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile]
+"SystemResponsiveness"=dword:00000000
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management
+"LargeSystemCache"=dword:"0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games]
+"Affinity"=dword:00000000
+"Background Only"="False"
+"Clock Rate"=dword:00002710
+"GPU Priority"=dword:"8"
+"Priority"=dword:"6"
+"Scheduling Category":"High"
+"SFIO Priority"="High"
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile]
+"NetworkThrottlingIndex"=dword:ffffffff
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSMQ\Parameters]
+"TCPNoDelay"=dword:"1"
+
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"EnableBalloonTips"=dword:"0"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters]
+"IRPStackSize"=dword:"32"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoLowDiskSpaceChecks"=dword:00000001
+"LinkResolveIgnoreLinkInfo"=dword:00000001
+"NoResolveSearch"=dword:00000001
+"NoResolveTrack"=dword:00000001
+"NoInternetOpenWith"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet002\Control]
+"WaitToKillServiceTimeout"="1000" 
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"AutoEndTasks"="1"
+"WaitToKillAppTimeout"="2000"
+[HKEY_USERS\S-1-5-20\Control Panel\Desktop]
+"AutoEndTasks"="1" 
+"HungAppTimeout"="1000" 
+"MenuShowDelay"="0" 
+"WaitToKillAppTimeout"="2000" 
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control]
+"WaitToKillServiceTimeout"="2000"
+
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"HungAppTimeout"="1000"
+"MenuShowDelay"="8"
+"LowLevelHooksTimeout"="1000"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Pshed]
+"NonBestEffortLimit"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters] 
+"EnableDCA"=dword:00000001 
+"EnableWsd"=dword:00000000 
+"EnableTCPA"=dword:00000001 
+"DisableTaskOffload"=dword:00000000 
+"EnableConnectionRateLimiting"=dword:00000000 
+"TcPMaxDataRetransmissions"=dword:"5" 
+"TcpNumConnections"=dword:"500"
+"TcpTimedWaitDelay"=dword:"19"
+"SynAttackProtect"=dword:00000001 
+"TcpCreateAndConnectTcbRateLimitDepth"=dword:00000000 
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
+"TCPNoDelay"=dword:00000001
+"TcpAckFrequency"=dword:00000001
+"TcpMaxDataRetransmissions"=dword:"5"
+"TCPDelAckTicks"=dword:00000000
+"Tcp1323Opts"=dword:"1"
+"MaxFreeTcbs"=dword:"65536
+"MaxUserPort"=dword:"65534"
+"DefaultTTL"=dword:"64"
+"GlobalMaxTcpWindowSize"=dword:"65535"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows]
+"NonBestEffortLimit"=dword:00000000
+
+[HKEY_CURRENT_USER\Control Panel\Mouse]
+
+"MouseSensitivity"="10"
+"SmoothMouseXCurve"=hex:\
+	00,00,00,00,00,00,00,00,\
+	70,3D,0A,00,00,00,00,00,\
+	E0,7A,14,00,00,00,00,00,\
+	50,B8,1E,00,00,00,00,00,\
+	C0,F5,28,00,00,00,00,00
+"SmoothMouseYCurve"=hex:\
+	00,00,00,00,00,00,00,00,\
+	00,00,38,00,00,00,00,00,\
+	00,00,70,00,00,00,00,00,\
+	00,00,A8,00,00,00,00,00,\
+	00,00,E0,00,00,00,00,00
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
+"MaxConnectionsPerServer"=dword:00000010
+"MaxConnectionsPer1_0Server"=dword:00000010
+
+

@@ -1,0 +1,37 @@
+REGEDIT.Dreamer_420
+_Fixed
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
+"DefaultTTL"=dword:000000ff
+"DisableTaskOffload"=dword:00000001
+"EnablePMTUBHDetect"=dword:00000000
+"EnablePMTUDiscovery"=dword:00000001
+"EnableWsd"=dword:00000000
+"GlobalMaxTcpWindowSize"=dword:0005ae4c
+"MaxHashTableSize"=dword:00010000
+"MaxUserPort"=dword:0000fffe
+"SackOpts"=dword:00000001
+"TCPInitialRtt"=dword:00007fff
+"Tcp1323Opts"=dword:00000003
+"TcpMaxDataRetransmissions"=dword:00000003
+"TcpMaxDupAcks"=dword:00000002
+"TcpNumConnections"=dword:00007fff
+"TcpTimedWaitDelay"=dword:0000001e
+
+[HKEY_LOCAL_MACHINE\Policies\Microsoft\Windows\Psched]
+"NonBestEffortLimit"=dword:00000000
+
+[HKEY_CURRENT_USER\Control Panel\Mouse]
+"MouseSpeed"="0"
+"MouseThreshold1"="0"
+"MouseThreshold2"="0"
+
+[HKEY_CURRENT_USER\Control Panel\Accessibility\Keyboard Response]
+"AutoRepeatDelay"="200"
+"AutoRepeatRate"="15"
+"BounceTime"="0"
+"DelayBeforeAcceptance"="0"
+"Flags"="59"
+"Last BounceKey Setting"=dword:00000000
+"Last Valid Repeat"=dword:00000000
+"Last Valid Wait"=dword:000003e8
